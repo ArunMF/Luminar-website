@@ -1,0 +1,230 @@
+*{
+    font-family: 'Segoe UI';
+}
+.navbar ul li a{
+    font-weight: 600;
+    color: black;
+    font-size: 18px;
+}
+.navbar ul li a:hover{
+    border-bottom: 1px solid #6D1D8E;
+    font-weight: 700;
+    color: #6D1D8E;
+}
+#heroes{
+    /* width: 100%;
+    height: auto; */
+    background-color: #DECCFF;
+}
+#heroes h1{
+    color: #6D1D8E;
+}
+#heroes h2{
+    color: #6D1D8E;
+}
+#heroes p{
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: justify;
+}
+#heroes .btn{
+    border-radius: 20px;
+    background-color: #6D1D8E;
+    border: #6D1D8E;
+}
+#heroes .btn:hover{
+    background-color: white;
+    color: #6D1D8E;
+}
+
+
+#botAssist{
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 500px;
+}
+#botAssist #a1{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-left: 10px;
+}
+#botAssist #a2{
+    width: 60px;
+    height: 60px;
+    float: right;
+    margin-right: 30px;
+}
+
+/* #heroes1{
+    border: 1px solid black;
+} */
+#heroes1 h1{
+    color: #6D1D8E;
+}
+#heroes1 p{
+    font-size: 15px;
+}
+#heroes1 #search{
+    width: 1500px;
+    border: none;
+    border-bottom: 1px solid #6D1D8E;
+}
+
+#courses{
+    /* border: 1px solid #6D1D8E; */
+    width: 100%;
+    height: 2460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+#courses .row{
+    /* border: 1px solid #6D1D8E; */
+    width: 78%;
+    height: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#courses .row .col{
+    /* border: 1px solid #6D1D8E; */
+    width: 30%;
+    height: 100%;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+}
+#courses .row .col:hover{
+    box-shadow: 2px 2px 10px #6D1D8E;
+}
+#courses .row .col .card{
+    background-color: rgb(240, 240, 240);
+    /* padding-bottom: 20px; */
+    border: none;
+}
+#courses .imgDiv{
+    margin-left: 25%;
+    /* border: 1px solid #6D1D8E; */
+    background-color: rgb(212, 212, 212);
+    width: 50%;
+    height: 150px;
+    border-radius: 50%;
+}
+#courses .row .col h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #6D1D8E;
+    font-size: 23px;
+    font-weight: 700;
+}
+#courses .row .col p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: 14px;
+    /* height: 100px; */
+}
+#courses .row .col p b{
+    color: #6D1D8E;
+}
+#courses a{
+    text-decoration: none;
+    border-radius: 30px;
+    width: 150px;
+    background-color: white;
+    color: #6D1D8E;
+    border: 2px solid #6D1D8E; 
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+#courses a:hover{
+    background-color: #6D1D8E;
+    color: white;
+}
+
+
+
+.whyDiv{
+    /* border: 1px solid #6D1D8E; */
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.whyDiv .mainImg{
+    /* border: 1px solid #6D1D8E; */
+    width: 50%;
+    height: 100%;
+
+}
+.whyDiv .mainImg img{
+    width: 100%;
+    height: 100%;
+}
+.whyDiv .details{
+    /* border: 1px solid #6D1D8E; */
+    width: 50%;
+    height: 100%;
+}
+.whyDiv .details h1{
+    color: #6D1D8E;
+    /* text-align: center; */
+    font-weight: bold;
+    font-size: 50px;
+    margin: 30px;
+}
+.whyDiv .details .desc{
+    margin: 30px;
+    text-align: justify;
+}
+.whyDiv .details ul li{
+    margin-bottom: 7px;
+}
+.whyDiv .details ul img{
+    margin-right: 10px;
+}
+
+
+.joinDiv{
+    background-image: url(./images/pen\ Img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.joinDiv .descri1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.joinDiv .contDet{
+    color: wheat;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.joinDiv button{
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    color: #6D1D8E;
+    border-radius: 30px;
+    border: none;
+}
+.joinDiv button:hover{
+    background-color: #6D1D8E;
+    color: white;
+}
